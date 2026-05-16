@@ -11,7 +11,7 @@ Fluent in English, Portuguese, and Spanish.
 ## What I'm building
 
 ### [leaf-brain](https://github.com/petersooter/leaf-brain)
-A 16-agent autonomous AI operating system I built to run Customer Success operations, without me initiating any of it. Integrates Gmail, Calendar, Slack, Granola, Salesforce, and Google Sheets. Fires 16 scheduled processes via macOS launchd. At its core: a 7-signal composite churn scoring model and a K-Shape Divergence framework for early account trajectory detection. Eliminated 40+ hours/week of manual processing.
+A 16-agent autonomous AI operating system I built to run Customer Success operations without me initiating any of it. Integrates Gmail, Calendar, Slack, Granola, Salesforce, and Google Sheets. Fires 16 scheduled processes via macOS launchd. At its core: a 7-signal composite churn scoring model and a K-Shape Divergence framework for early account trajectory detection. Eliminated 40+ hours/week of manual processing.
 
 > `Python` `Claude API` `launchd` `Salesforce` `Google Workspace` `Slack`
 
@@ -21,24 +21,24 @@ FastAPI endpoint serving demand forecasts from a scikit-learn model. Containeriz
 > `Python` `FastAPI` `scikit-learn` `Docker` `Azure`
 
 ### [customer-health-os](https://github.com/petersooter/customer-health-os)
-Python implementation of the 7-signal churn scoring model powering leaf-brain. Self-contained — accepts a CSV of account signals, outputs risk scores, confidence levels, and recommended interventions. Calibrated against real post-mortems.
+Python implementation of the 7-signal churn scoring model powering leaf-brain. Self-contained: accepts a CSV of account signals, outputs risk scores, confidence levels, and recommended interventions. Calibrated against real post-mortems.
 
 > `Python` `pandas` `scikit-learn`
 
 ### [k-shape-divergence](https://github.com/petersooter/k-shape-divergence)
-Account trajectory analysis module. Takes engagement timeseries data, classifies accounts as accelerating toward value or stalling toward churn, within the first 60 days, before divergence becomes irreversible.
+Account trajectory analysis module. Takes engagement timeseries data and classifies accounts as accelerating toward value or stalling toward churn, within the first 60 days, before divergence becomes irreversible.
 
 > `Python` `pandas` `numpy`
 
 ### [crop-insurance-data-analysis](https://github.com/petersooter/crop-insurance-data-analysis)
-The analysis that saved a $76K contract in 3 days. 341K+ data points, no engineering support. Documented as a reproducible Jupyter notebook, demonstrates Leaf's data accuracy within 3.7% of the industry baseline vs the client's own tool at 8.2%.
+The analysis that saved a $76K contract in 3 days. 341K+ data points, no engineering support. Documented as a reproducible Jupyter notebook demonstrating Leaf's data accuracy within 3.7% of the industry baseline vs the client's own tool at 8.2%.
 
 > `Python` `Jupyter` `pandas` `matplotlib`
 
 ### [automotive-etl-pipeline](https://github.com/petersooter/automotive-etl-pipeline)
 Production ETL pipeline built for a global automotive manufacturer. Ingests complex daily data dumps from multiple source formats, normalizes and transforms into production-ready analytical datasets, and outputs to BI reporting layers. Handles schema inconsistencies, failed delivery recovery, and incremental loading across high-volume daily runs.
 
-> `Python` `pandas` `SQL` `MongoDB`
+> `Python` `pandas` `SQL`
 
 ---
 
@@ -59,9 +59,9 @@ Production ETL pipeline built for a global automotive manufacturer. Ingests comp
 
 ## Background
 
-15+ years running enterprise CS and technical operations across SaaS, agtech, and CX platforms. The through-line isn't the industry, it's always been the same thing: diagnose what's broken operationally, build the infrastructure to fix it, make it run without babysitting.
+15+ years running enterprise CS and technical operations across SaaS, agtech, and CX platforms. The through-line isn't the industry. It's always been the same thing: diagnose what's broken operationally, build the infrastructure to fix it, make it run without babysitting.
 
-At Worthix I built the full CS org from zero — 30+ CSMs, the training curriculum, the health scoring system, the Power BI dashboards that replaced 5 weekly status meetings. At Leaf I inherited a manual operation and turned it into leaf-brain. The work is always the same: figure out what shouldn't require a human, then build the thing that doesn't.
+At Worthix I built the full CS org from zero: 30+ CSMs, the training curriculum, the health scoring system, and the Power BI dashboards that replaced 5 weekly status meetings. At Leaf I inherited a manual operation and turned it into leaf-brain. The work is always the same. Figure out what shouldn't require a human, then build the thing that doesn't.
 
 ---
 
