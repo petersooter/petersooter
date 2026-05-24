@@ -15,10 +15,10 @@ A 16-agent autonomous AI operating system I built to run Customer Success operat
 
 > `Python` `Claude API` `launchd` `Salesforce` `Google Workspace` `Slack`
 
-### [demand-forecasting-api](https://github.com/petersooter/demand-forecasting-api)
-FastAPI endpoint serving demand forecasts from a scikit-learn model. Containerized with Docker, deployed on Azure App Service. Built to demo the FDE motion: here's a working solution, here's the business problem it solves, here's how to run it in your environment.
+### [demand-forecasting-api](https://github.com/petersooter/demand-forecasting-api) — [Live Demo](https://demand-forecasting-api-ig88.onrender.com/docs)
+FastAPI endpoint serving demand forecasts from a scikit-learn GradientBoosting model. 14-feature input, point forecast with 80% confidence interval output. Containerized with Docker, deployed and live. Built to demo the FDE motion: here is a working solution, here is the business problem it solves, here is how to run it in your environment.
 
-> `Python` `FastAPI` `scikit-learn` `Docker` `Azure`
+> `Python` `FastAPI` `scikit-learn` `Docker`
 
 ### [customer-health-os](https://github.com/petersooter/customer-health-os)
 Python implementation of the 7-signal churn scoring model powering leaf-brain. Self-contained: accepts a CSV of account signals, outputs risk scores, confidence levels, and recommended interventions. Calibrated against real post-mortems.
@@ -29,6 +29,11 @@ Python implementation of the 7-signal churn scoring model powering leaf-brain. S
 Account trajectory analysis module. Takes engagement timeseries data and classifies accounts as accelerating toward value or stalling toward churn, within the first 60 days, before divergence becomes irreversible.
 
 > `Python` `pandas` `numpy`
+
+### [meeting-quality-framework](https://github.com/petersooter/meeting-quality-framework)
+10-dimension meeting quality scoring system with trend tracking, rolling averages, and low-value streak alerts. CLI for interactive scoring and portfolio reporting. Triggers intervention prompts when three consecutive meetings fall below threshold.
+
+> `Python` `CLI`
 
 ### [crop-insurance-data-analysis](https://github.com/petersooter/crop-insurance-data-analysis)
 The analysis that saved a $76K contract in 3 days. 341K+ data points, no engineering support. Documented as a reproducible Jupyter notebook demonstrating Leaf's data accuracy within 3.7% of the industry baseline vs the client's own tool at 8.2%.
